@@ -5,6 +5,9 @@ import { federation } from "@module-federation/vite";
 import { createEsBuildAdapter } from '@softarc/native-federation-esbuild';
 
 export default defineConfig(async ({ command }) => ({
+  build: {
+    manifest: true
+  },
   plugins: [
     await federation({
       options: {
