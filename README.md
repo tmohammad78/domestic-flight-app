@@ -25,3 +25,7 @@ module.exports = withNativeFederation({
 
 We are using this micro app in the our host/container/shell/fragment.
 This is the Host application: https://github.com/tmohammad78/mfe-native-federation
+
+
+## Problems
+* It has a awful delay, idk why.
