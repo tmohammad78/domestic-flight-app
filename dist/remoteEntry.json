@@ -1,0 +1,43 @@
+{
+  "name": "domestic",
+  "shared": [
+    {
+      "packageName": "react",
+      "outFileName": "react.nqtQMMFaaq-dev.js",
+      "requiredVersion": "^18.3.1",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "18.3.1",
+      "dev": {
+        "entryPoint": "/Users/mohammadtaheri/projects/domestic-flight-app/node_modules/react/index.js"
+      }
+    },
+    {
+      "packageName": "react-dom",
+      "outFileName": "react_dom.tvh0VVzxWk-dev.js",
+      "requiredVersion": "^18.3.1",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "18.3.1",
+      "dev": {
+        "entryPoint": "/Users/mohammadtaheri/projects/domestic-flight-app/node_modules/react-dom/index.js"
+      }
+    }
+  ],
+  "exposes": [
+    {
+      "key": "./domesticFlight",
+      "outFileName": "",
+      "dev": {
+        "entryPoint": "/Users/mohammadtaheri/projects/domestic-flight-app/src/app.tsx"
+      }
+    },
+    {
+      "key": "./flightUtils",
+      "outFileName": "",
+      "dev": {
+        "entryPoint": "/Users/mohammadtaheri/projects/domestic-flight-app/src/utils.tsx"
+      }
+    }
+  ]
+}
