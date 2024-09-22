@@ -1,16 +1,9 @@
-name: "container"
+name: "deploy"
 
 on:
   push:
     branches:
       - main
-    paths:
-      - 'container/**'
-
-defaults:
-  run:
-    working-directory: 'container'
-
 
 jobs:
   build:
